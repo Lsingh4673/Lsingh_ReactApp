@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import FavButton from './FavButton';
-
+import App from './App';
 ReactDOM.render(
   <React.StrictMode>
-    <FavButton/>
+   <App/>
+   <FavButton/>
   </React.StrictMode>,
   document.getElementById('root')
 );

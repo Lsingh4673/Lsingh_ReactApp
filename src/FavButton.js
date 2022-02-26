@@ -21,7 +21,7 @@ function FavButton() {
         <Route path ="/" exact component={App}/> 
         <Route  path ="/fav" exact component={Fav}/>
       </Switch>
-      <Link to= "/fav">
+      <Link exact to= "/fav">
         My Favourites
       </Link>
     </div>
